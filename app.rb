@@ -4,6 +4,8 @@ require 'json'
 
 set :public_folder, File.dirname(__FILE__) + '/public'
 
+set :port, 4567
+
 get '/' do
     erb :index
 end

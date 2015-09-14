@@ -3,7 +3,7 @@
 ## 1
 
 * `gem install sinatra sinatra-contrib  sinatra-jsonp sinatra-cross_origin`
-* `ruby app.rb && ruby app2.rb`
+* `ruby app.rb &; ruby app2.rb &`
 
 ## 2
 
