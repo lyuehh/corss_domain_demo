@@ -73,4 +73,12 @@ $(function() {
         }
         $('.resource').html(list);
     });
+
+    $('#iframe').on('load', function(e) {
+        console.log( 1111 )
+        var resources = window.performance.getEntriesByType('resource');
+        var json = JSON.stringify(resources);
+        console.log( json )
+
+    });
 });
